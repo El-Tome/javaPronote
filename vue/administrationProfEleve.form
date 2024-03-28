@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="profSuppr" max="32767" attributes="0"/>
+                  <Component id="profListe" max="32767" attributes="0"/>
+                  <Component id="profAjout" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="profNom" min="-2" pref="76" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="profMatiere" min="-2" pref="76" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="profTexte" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="eleveNom" min="-2" pref="76" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="eleveClasse" min="-2" pref="76" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="eleveTexte" max="32767" attributes="0"/>
+                  <Component id="eleveAjout" max="32767" attributes="0"/>
+                  <Component id="eleveListe" max="32767" attributes="0"/>
+                  <Component id="eleveSuppr" alignment="1" min="-2" pref="158" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="groupeTexte" alignment="0" max="32767" attributes="0"/>
+                  <Component id="groupeNom" alignment="0" max="32767" attributes="0"/>
+                  <Component id="groupeAjouter" alignment="0" max="32767" attributes="0"/>
+                  <Component id="groupeListe" max="32767" attributes="0"/>
+                  <Component id="groupeSuppr" pref="158" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="salleNum" max="32767" attributes="0"/>
+                  <Component id="salleTexte" alignment="0" max="32767" attributes="0"/>
+                  <Component id="salleAjout" alignment="0" max="32767" attributes="0"/>
+                  <Component id="salleListe" max="32767" attributes="0"/>
+                  <Component id="salleSuppr" pref="158" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="matNom" max="32767" attributes="0"/>
+                  <Component id="matTexte" max="32767" attributes="0"/>
+                  <Component id="matAjouter" max="32767" attributes="0"/>
+                  <Component id="matListe" max="32767" attributes="0"/>
+                  <Component id="matSuppr" pref="158" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="17" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="profTexte" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="groupeTexte" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="salleTexte" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="matTexte" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="profNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="profMatiere" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="groupeNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="matNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="salleNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="eleveNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="eleveClasse" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="profAjout" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="profListe" min="-2" pref="200" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="eleveTexte" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="eleveAjout" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="groupeAjouter" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="salleAjout" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="matAjouter" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="eleveListe" pref="200" max="32767" attributes="0"/>
+                          <Component id="groupeListe" max="32767" attributes="0"/>
+                          <Component id="salleListe" max="32767" attributes="0"/>
+                          <Component id="matListe" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="profSuppr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="eleveSuppr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="groupeSuppr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="salleSuppr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="matSuppr" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="37" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="profTexte">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enseignant"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="profNom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nom"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="profMatiere">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mati&#xe8;re"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="profAjout">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ajouter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="profAjoutActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="profListe">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="profList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="profSuppr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Supprimer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="profSupprActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eleveTexte">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="eleve"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="eleveNom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nom"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="eleveClasse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="classe"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="eleveAjout">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ajouter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eleveAjoutActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="eleveListe">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="eleveList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="eleveSuppr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Supprimer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eleveSupprActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="groupeTexte">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="groupe"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="groupeNom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nom"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="groupeAjouter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ajouter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="groupeAjouterActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="groupeListe">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="groupeList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="groupeSuppr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Supprimer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="groupeSupprActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="salleTexte">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="salle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="salleNum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="numero"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="salleAjout">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ajouter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salleAjoutActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="salleListe">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="salleList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="salleSuppr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Supprimer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salleSupprActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="matTexte">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mati&#xe8;re"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="matNom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nom"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="matAjouter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ajouter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="matAjouterActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="matListe">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="matList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="matSuppr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Supprimer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="matSupprActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
