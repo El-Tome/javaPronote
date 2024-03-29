@@ -86,6 +86,7 @@
                           <Component id="groupeTexte" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
                           <Component id="salleTexte" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="matTexte" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="eleveTexte" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -97,14 +98,12 @@
                           <Component id="eleveNom" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="eleveClasse" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Component id="profAjout" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="profListe" min="-2" pref="200" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="eleveTexte" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="eleveAjout" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="groupeAjouter" alignment="3" min="-2" max="-2" attributes="0"/>

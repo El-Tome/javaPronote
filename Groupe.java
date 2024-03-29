@@ -27,4 +27,12 @@ public class Groupe  implements java.io.Serializable {
     public String getNomGroupe(){
         return this.nom;
     }
+    
+    public ArrayList<Eleve> getListeEleve(){
+        return this.listeEleve;
+    }
+
+    public void removeEleve(Eleve eleve){
+        listeEleve.remove(eleve);
+    }
 }

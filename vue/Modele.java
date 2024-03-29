@@ -188,4 +188,30 @@ public class Modele implements java.io.Serializable {
         Matiere m = getMat(nom);
         this.matieres.remove(m);
     }
+    
+
+
+
+
+
+
+
+    // -------------------------------------------------------------------------
+    public void addEleveGroupe(String nomGroupe, String nomEleve)
+    {
+        Groupe g = getGroupe(nomGroupe);
+        Eleve e = getEleve(nomEleve);
+        e.addGroupe(g);
+        g.addEleve(e);
+    }
+
+
+    public void removeEleveGroupe(String nomGroupe, String nomEleve)
+    {
+        Groupe g = getGroupe(nomGroupe);
+        Eleve e = getEleve(nomEleve);
+        e.removeGroupe(g);
+        g.removeEleve(e);
+    }
+
 }

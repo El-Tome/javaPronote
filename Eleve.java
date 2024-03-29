@@ -25,4 +25,15 @@ public class Eleve extends Individu  implements java.io.Serializable {
         listesGroupes.add(groupe);
     }
     
+    public String getNomClasse(){
+        return this.nomClasse;
+    }
+
+    public ArrayList<Groupe> getListesGroupes(){
+        return this.listesGroupes;
+    }
+
+    public void removeGroupe(Groupe groupe){
+        listesGroupes.remove(groupe);
+    }
 }
